@@ -1,0 +1,206 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+    background: #fff;;
+    position: fixed;  
+    overflow: hidden;  
+    z-index: 1;
+    top:0;
+    width: 100%;
+    border-bottom: 2px solid #ccc ;
+    float: left;
+    height: 100px;
+ }
+ #name {
+    background: #4aaaa5;
+    color: #fff;
+    width: 300px;
+    float: left;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ text-align: center;
+  line-height: 100px;
+  margin-left: 12%;
+  margin-right: 20%;
+ }
+.github {
+margin-left: 420px;
+}
+.email{
+    text-align: center;
+}
+ .pages a {
+  float: left;
+    color: #666;
+    text-align: center;
+    display: block;
+    padding: 41px;
+    text-decoration: none;
+    font-size: 17px;
+ }
+
+ .pages a:hover {
+    background:#4aaaa5;
+    color: #fff;
+ }
+
+
+h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: #4aaaa5;
+    font-weight: 1000;
+    line-height: 45px;
+
+}
+.content{
+    background: white;
+    border: 2px solid #ccc;
+    width: 100%;
+    max-width: 960px;
+    overflow: auto;
+margin: auto;
+padding:30px;
+font-size: 15px;
+line-height: 30px;
+margin-top: 150px;
+margin-bottom: 150px;
+}
+
+.main-picture {float: left;
+margin-right: 20px;
+}
+
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 36px;
+}
+
+textarea {
+    width: 100%;
+}
+
+input {
+    width: 100%;
+}
+
+label {
+    color: #666;
+    line-height: 30px;
+    
+}
+
+/* input[type=submit] {
+    background: #4aaaa5;
+    width: 10%;
+    border: none;
+    padding: 10px;
+    font-size: 15PX;
+    color: #ffffff
+} */
+
+.pictures { float: left;
+    position: relative;
+    margin: 20px;
+    border: 1px solid rgb(158, 158, 158);
+}
+
+h3 {
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+    text-align: center;
+    position: absolute;
+    bottom: 45px;
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background: #666;
+    color: #ccc;
+    border-top:5px solid #4aaaa5;
+    height: 40px;
+    font-size: 10px;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    
+   
+}
+
+@media screen and (max-width: 980px){
+.content {
+    max-width: 95%;
+}
+#name {
+    margin-left: 3%;
+    margin-right: 7%
+}
+.pages a {
+    width: 15%
+}
+}
+
+@media screen and (max-width: 768px){
+
+.content {
+    max-width: 95%;
+}
+.navbar {
+    height: 75px;
+}
+#name {
+    margin-left: 3%;
+    margin-right: 25%;
+    width: 200px;
+    line-height: 75px;
+    font-size: 25px;
+    font-weight: 200;
+    
+}
+
+.pages a {
+    padding: 28px
+}
+input[type=submit] {
+    width: 20%;
+}
+img {
+    width: 250px;
+    height: 250px;
+}
+
+h3{
+    bottom: 20px;}
+}
+
+@media screen and (max-width: 640px) {
+
+.navbar {
+position: default;
+overflow: unset;
+}
+#name {
+margin:0;
+width: 100%
+}
+.pages a {
+background:#fff;
+border-bottom: 1px solid #ccc;
+width: 33.3%;
+text-align: center;
+padding: 20px;
+font-size: 15px;
+}
+.pages a:hover {
+    background: #ccc;
+    color:#4aaaa5;
+}
+}
