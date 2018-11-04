@@ -28,7 +28,7 @@
   margin-right: 20%;
  }
 .github {
-margin-left: 375px;
+margin-left: 40%;
 }
 .email{
     text-align: center;
@@ -158,6 +158,10 @@ footer {
     font-weight: 200;
     
 }
+.github , .linkedin{
+    width: 70px;
+    height: 70px;
+}
 
 .pages a {
     padding: 28px
@@ -195,5 +199,9 @@ font-size: 15px;
 .pages a:hover {
     background: #ccc;
     color:#4aaaa5;
+}
+.github , .linkedin{
+    width: 70px;
+    height: 70px;
 }
 }
