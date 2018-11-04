@@ -27,7 +27,9 @@
   margin-left: 12%;
   margin-right: 20%;
  }
-
+.github {
+margin-left: 375px;
+}
 .email{
     text-align: center;
 }
