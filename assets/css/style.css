@@ -95,19 +95,11 @@ label {
     
 }
 
-/* input[type=submit] {
-    background: #4aaaa5;
-    width: 10%;
-    border: none;
-    padding: 10px;
-    font-size: 15PX;
-    color: #ffffff
-} */
 
 .pictures { float: left;
     position: relative;
     margin: 20px;
-    border: 1px solid rgb(158, 158, 158);
+   
 }
 
 h3 {
