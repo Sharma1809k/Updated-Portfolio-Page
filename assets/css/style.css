@@ -178,7 +178,7 @@ h3{
     bottom: 20px;}
 }
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 750px) {
 
 .navbar {
 position: default;
