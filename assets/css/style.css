@@ -1,6 +1,10 @@
 * {
+
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    height: 100%;
 }
 
 .navbar {
@@ -139,6 +143,7 @@ footer {
 .pages a {
     width: 15%
 }
+
 }
 
 @media screen and (max-width: 768px){
@@ -178,7 +183,9 @@ h3{
     bottom: 20px;}
 }
 
-@media screen and (max-width: 750px) {
+
+@media screen and (max-width: 750px)
+{
 
 .navbar {
 position: default;
@@ -203,5 +210,8 @@ font-size: 15px;
 .github , .linkedin{
     width: 70px;
     height: 70px;
+}
+footer{
+    bottom: 0;
 }
 }
