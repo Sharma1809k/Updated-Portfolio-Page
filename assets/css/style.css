@@ -3,9 +3,6 @@
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
-body {
-    height: 100%;
-}
 
 .navbar {
     background: #fff;;
@@ -120,6 +117,7 @@ h3 {
 }
 
 footer {
+    margin-top: 100%;
     text-align: center;
     background: #666;
     color: #ccc;
@@ -210,8 +208,5 @@ font-size: 15px;
 .github , .linkedin{
     width: 70px;
     height: 70px;
-}
-footer{
-    bottom: 0;
 }
 }
